@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAVUP2BSYH5J6NYUU7
+      secret-key: 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
+    region:
+      static: us-east-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: usersbm
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+
+
