@@ -4,8 +4,8 @@ server:
 cloud:
   aws:
     credentials:
-      access-key: AKIAVUP2BSYH5J6NYUU7
-      secret-key: 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
+      access-key: 
+      secret-key: 
     region:
       static: us-east-2
     stack:
